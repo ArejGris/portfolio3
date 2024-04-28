@@ -1,0 +1,57 @@
+.skills{
+    background: url('/public/mountains.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  display: flex;
+flex-wrap: wrap;
+gap: 10px;
+    place-items: center;
+    position: relative;
+    padding-top: 20px;
+    min-height: 100vh;
+}
+.skills .row{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 7px rgb(255,255,255);
+    padding-top: 20px;
+}
+.skills .row .icon{
+    padding-right: 20px;
+}
+.skills .row p{
+    width: 100%;
+}
+@media screen and (max-width:1090px) {
+    .skills .row{
+        width: 40%;
+    }
+    
+}
+@media screen and (max-width:590px) {
+    .skills .row{
+        width: 80%;
+    }
+    
+}
+.skills .row .icon{
+    order: 1;
+}
+.skills .row p{
+    text-align: center;
+    height: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    order:3
+}
+.skills .row h4{
+    font-size: 30px;
+    order:2
+}

@@ -1,0 +1,32 @@
+.section-theme{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    z-index: 100;
+}
+.colors{
+    position: relative;
+    width: fit-content;
+    height: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+}
+.colors span{
+    border-radius: 50%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.section-theme .icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
