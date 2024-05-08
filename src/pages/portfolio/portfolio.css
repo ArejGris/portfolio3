@@ -3,9 +3,6 @@
    width: 100%;
    min-height: 100vh;
    margin: 0;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
 }
 
 .portfolio .title h1{
@@ -22,17 +19,20 @@
  
  .portfolio_contents{
    height: 100%;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
  }
 section{
-   
-   height: 100vh;
-   width: 100%;
+   height: 400px;
+   width: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
 }
  .row{
-   width: 50%;
+   width: 80%;
    margin: auto;
    display: flex;
    
@@ -46,6 +46,12 @@ background-color:  none;
    .portfolio_contents .row{
       width: 100%;
    } 
+   .portfolio_contents{
+      gap: 50px;
+   }
+   .portfolio_contents section{
+      width: 100%;
+   }
 }
 
 .portfolio_contents .row .content{
@@ -57,18 +63,19 @@ background-color:  none;
   flex-direction: column;
   align-items: flex-start;
  justify-content: center ;
- padding: 20px;
+ padding-left: 20px;
  height: auto;
 }
 .portfolio_contents .row .content .head h2{
 white-space: nowrap;
 }
 .portfolio_contents .row .content p{
-   height: 50%;
+   
    text-overflow: ellipsis;
    overflow: hidden;
 }
 .portfolio_contents .row .image{
+   height: 100%;
    flex: 1;
    text-align: center;
 }
@@ -77,7 +84,7 @@ white-space: nowrap;
    border-radius: 10px;
 box-shadow: 0px 1px 7px rgb(143, 182, 207);
  width:100%; 
- height: auto;
+ height: 100%;
 }
 
 .portfolio_contents .row .content .links{

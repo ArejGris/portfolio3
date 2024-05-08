@@ -55,7 +55,7 @@ const Contact = () => {
         <div className="row">
           <Gitlab fontSize="30px" color={color} />
           <p className="style-para">gitlab</p>
-          <span className="style-span opacity-8">https://gitlab.com/ArejGitLab</span>
+          <span className="style-span opacity-8">https://gitlab.com/ArejGrisVitLab</span>
         </div>
       </div>
       <div className="section-sendEmail">

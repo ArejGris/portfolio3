@@ -1,5 +1,5 @@
  const state={
-mode:true,
+mode:false,
 color:"red",
 prev:'Contact',
 next:"Portfolio"

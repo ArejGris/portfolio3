@@ -19,15 +19,55 @@ const Protfolio = () => {
       id: 1,
       title: "Embroidery by jojo",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt voluptatem eveniet nam eaque nulla?",
+        "E-commerce project using vue.js bootstrap ",
       img: "embroidery.png",
+      demo:'https://embroidary-by-jojo.netlify.app',
+      github:'https://github.com/ArejGris/embroideryByJojo.git'
     },
     {
       id: 2,
+      title: "Medical Project",
+      description:
+        "medical website using react.js native swiper and more",
+      img: "medical.png",
+      demo:'https://medical-project-chi.vercel.app/',
+      github:'https://github.com/ArejGris/MedicalProject.git'
+    },
+    {
+      id: 3,
+      title: "Bold Project",
+      description:
+        "technological website using javascript css html",
+      img: "bold.png",
+      demo:'https://blog1234blog.netlify.app/',
+      github:'https://github.com/ArejGris/blog2.git'
+    },
+    {
+      id: 4,
+      title: "touristical Project",
+      description:
+        "touristical website using react ",
+      img: "project.png",
+      demo:'reactproject-lilac.vercel.app',
+      github:'https://github.com/ArejGris/reactproject.git'
+    },
+    {
+      id: 5,
+      title: "Bold Project",
+      description:
+        "technological website using react",
+      img: "bold.png",
+      demo:'https://react-e-commerce-three-nu.vercel.app/',
+      github:'https://github.com/ArejGris/ReactE-Commerce.git'
+    },
+    {
+      id: 6,
       title: "next project",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt voluptatem eveniet nam eaque nulla?",
+        "Next.js project contain sign in sign up pages and more",
       img: "next-project.png",
+      demo:'',
+      github:'https://github.com/ArejGris/NextApp.git'
     },
   ];
 
@@ -47,10 +87,10 @@ const Protfolio = () => {
             </div>
             <p>{item.description}</p>
             <div className="links">
-              <a href="https://github.com/ArejGris/embroideryByJojo.git">
+              <a href={item.github}>
                 <Github size={20} color={color} />
               </a>
-              <a href="/">
+              <a href={item.demo}>
                 <Globe size={20} color={color} />
               </a>
             </div>
