@@ -17,6 +17,15 @@ const Protfolio = () => {
   const files = [
     {
       id: 1,
+      title: "Bold Project",
+      description:
+        "technological website using Next.js fastify , supabase",
+      img: "lavana.png",
+      demo:'https://areej-repo.vercel.app/en',
+      github:' https://gitlab.com/ArejGrisVitLab/lavana-store.git'
+    },
+    {
+      id: 2,
       title: "Embroidery by jojo",
       description:
         "E-commerce project using vue.js bootstrap ",
@@ -25,7 +34,7 @@ const Protfolio = () => {
       github:'https://github.com/ArejGris/embroideryByJojo.git'
     },
     {
-      id: 2,
+      id: 3,
       title: "Medical Project",
       description:
         "medical website using react.js native swiper and more",
@@ -34,7 +43,7 @@ const Protfolio = () => {
       github:'https://github.com/ArejGris/MedicalProject.git'
     },
     {
-      id: 3,
+      id: 4,
       title: "Bold Project",
       description:
         "technological website using javascript css html",
@@ -43,7 +52,7 @@ const Protfolio = () => {
       github:'https://github.com/ArejGris/blog2.git'
     },
     {
-      id: 4,
+      id: 5,
       title: "touristical Project",
       description:
         "touristical website using react ",
@@ -51,15 +60,7 @@ const Protfolio = () => {
       demo:'reactproject-lilac.vercel.app',
       github:'https://github.com/ArejGris/reactproject.git'
     },
-    {
-      id: 5,
-      title: "Bold Project",
-      description:
-        "technological website using react",
-      img: "bold.png",
-      demo:'https://react-e-commerce-three-nu.vercel.app/',
-      github:'https://github.com/ArejGris/ReactE-Commerce.git'
-    },
+   
     {
       id: 6,
       title: "next project",
