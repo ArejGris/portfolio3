@@ -17,7 +17,7 @@ const Protfolio = () => {
   const files = [
     {
       id: 1,
-      title: "Bold Project",
+      title: "lavana store Project",
       description:
         "technological website using Next.js fastify , supabase",
       img: "lavana.png",
